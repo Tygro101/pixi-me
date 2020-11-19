@@ -1,0 +1,19 @@
+.container {
+    width: 100%;
+    height: 500px;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 70%, rgba(0,0,0,1) 78%, rgba(64,64,64,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    .img {
+        height: 60%;
+        //eight: 200px;
+        //idth: 200px;
+        background: black;
+        canvas{
+            height: 60%;
+        }
+    }
+}
